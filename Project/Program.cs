@@ -43,7 +43,7 @@ namespace Project
 
                                     while (randomNumber % devider == 0) // dokud je zbytek po dělení 0
                                     {
-                                        Console.WriteLine($"{randomNumber} / {devider} = {randomNumber / devider}"); // výpis do konzole
+                                        Console.WriteLine($"{count + 1}. {randomNumber} / {devider} = {randomNumber / devider}"); // výpis do konzole
 
                                         randomNumber /= devider;  // randomNumber = randomNumber / devider
                                         count++; // k proměnné se přičte +1
@@ -88,7 +88,7 @@ namespace Project
 
                                             while (inputNumber % devider == 0) // dokud je zbytek po dělení 0
                                             {
-                                                Console.WriteLine($"{inputNumber} / {devider} = {inputNumber / devider}"); // výpis do konzole
+                                                Console.WriteLine($"{count + 1}. {inputNumber} / {devider} = {inputNumber / devider}"); // výpis do konzole
 
                                                 inputNumber /= devider; // inputNumber = inputNumber / devider
                                                 count++; // k proměnné se přičte +1
